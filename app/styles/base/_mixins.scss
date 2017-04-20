@@ -1,0 +1,13 @@
+@mixin add-flex($dir:row,$justify-content:flex-start,$align-items:flex-start) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $justify-content;
+  align-items: flex-start;
+}
+
+@mixin add-background($src,$size:cover,$position:50% 50%,$repeat:no-repeat) {
+  background-image: url($src);
+  background-size: $size;
+  background-position: $position;
+  background-repeat: $repeat;
+}

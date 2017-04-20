@@ -1,0 +1,9 @@
+.main-navigation {
+  @include add-flex();
+  li {
+    margin: 10px 20px;
+  }
+  a {
+    color: $theme-color;
+  }
+}

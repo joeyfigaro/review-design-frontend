@@ -1,0 +1,15 @@
+.dropdown {
+    display: inline-block;
+    .icons {
+      text-align: center;
+    }
+}
+
+.dropdown__content {
+    display: none;
+    position: absolute;
+}
+
+.dropdown--active .dropdown__content {
+    display: block;
+}

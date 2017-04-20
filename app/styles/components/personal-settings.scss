@@ -1,0 +1,6 @@
+.site-header .logout {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  @include add-background('/images/shutdown.svg');
+}
