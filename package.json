@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "karma start",
-    "start": "node server.js"
+    "webpack": "webpack -w",
+    "server": "node server.js",
+    "start": "concurrently --prefix \"{time}-{pid}\" \"npm run webpack\" \"npm run server\""
   },
   "author": "gurjit singh mehta",
   "license": "MIT",
